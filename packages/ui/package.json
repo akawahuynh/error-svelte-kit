@@ -6,7 +6,8 @@
     "dev": "svelte-kit sync && svelte-package --watch",
     "build": "svelte-kit sync && svelte-package",
     "lint": "eslint .",
-    "check-types": "svelte-check --tsconfig ./tsconfig.json"
+    "check-types": "svelte-check --tsconfig ./tsconfig.json",
+    "glob": "node script/glob.ts"
   },
   "files": [
     "dist",
@@ -39,7 +40,7 @@
     }
   },
   "peerDependencies": {
-    "svelte": "^5.0.0"
+    "svelte": "catalog:"
   },
   "devDependencies": {
     "@fontsource-variable/inter": "^5.2.8",
