@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "svelte-kit sync && svelte-package --watch",
+    "dev:ui": "svelte-kit sync && svelte-package --watch",
     "build": "svelte-kit sync && svelte-package",
     "lint": "eslint .",
     "check-types": "svelte-check --tsconfig ./tsconfig.json",
