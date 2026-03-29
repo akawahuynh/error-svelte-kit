@@ -16,8 +16,8 @@
 
 
 <!-- This form works -->
-<!-- <form {...updateData}>
+<form {...updateData}>
     <input {...updateData.fields.id.as('number')} value={data?.id} type="hidden"/>
 	<input {...updateData.fields.title.as('text')} value={data?.title} />
 	<button type="submit">Update</button>
-</form> -->
+</form>
