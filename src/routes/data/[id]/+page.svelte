@@ -9,7 +9,7 @@
 
 <!-- This form error -->
 <form {...updateData}>
-	<Input {...updateData.fields.id.as('number')} value={data?.id} type="hidden" />
+	<Input {...updateData.fields.id.as('number')} value={params.id} type="hidden" />
 	<Input {...updateData.fields.title.as('text')} value={data?.title} />
 	<button type="submit">Update</button>
 </form>
